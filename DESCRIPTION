@@ -1,0 +1,11 @@
+Package: DadaSlicer1.0
+Title: Random Audio Samples Slicer
+Version: 1.0
+Authors@R: person("Myown", "Elexir", email="r.programming.massive@gmail.com",
+                  role = c("aut", "cre"))
+Description: This package takes as an input long audio samples and randomly chops them into smaller more interesting pieces.
+Depends: R (>= 3.5.0)
+License: CC
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
