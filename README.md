@@ -50,16 +50,18 @@ Once the the process is completed we can check the output folder to see if new s
 >list.files(output)
 [1] "sample_1.wav" "sample_2.wav" "sample_3.wav" sample_4.wav"
 ```
-An additional function is an ``` dada_folders()``` which as an argument takes  earlier defined ```(output)``` folder. It takes the newly generated files randomly selects 15 and puts this new selection into a new subfolder. The process is repeated until all the files are redistributed. WARNING (!) Be careful when using this function as when the process is finished it deletes all the original files from the ```(output)``` folder.
+An additional function is an ``` dada_folders()``` which as an argument takes  earlier defined ```(output)``` folder. It takes the newly generated files, randomly selects 15 and puts this new selection into a new subfolder. The process is repeated until all the files are redistributed. WARNING (!) Be careful when using this function as when the process is finished it deletes all the original files from the ```(output)``` folder.
 The output of this function are new folders in the ```(output)``` folder containing your 1 sec samples.
 
 ## Application of the package
 
-When I was creating it, the main use case I was thinking about was to help me to go quickly through 100s or 1000s of samples, session recordings, foley recordings etc, and rather then manually select the most interesting bits I would leave it to chance, and let the faith decide and pick 10 1 sec audio clips from each of my samples. I use it to generate a my personal sample packs and reuse newly generated samples in music production, sound design, TidalCycles projects etc.  
+When I was creating it, the main use case I was thinking about was to help me to go quickly through 100s or 1000s of samples from session recordings, foley recordings etc, and rather then manually select the most interesting bits I would leave it to chance, and let the faith decide and pick 10 1 sec audio clips from each of my files. I use it to generate a my personal sample packs and reuse newly generated samples in music production, sound design, TidalCycles projects etc.  
+
 I have noticed that always there will be some very interesting clips among those samples that otherwise I might have missed. 
 
+So to sum up, here are some applications:
 * Go through 1000s of audio files and instantly generate interesting sample packs
-* Reuse your old samples and chope them in new fashion to breath new live into your older work
+* Reuse your old samples and chop them in new fashion to breath new live into your older work
 * Use it to chop your long foley recording sessions into nicely digestible audio clips
 * Get inspired, start recording random sounds from various inputs and turn them into sound packs. I routinely use my iPhone, my synth sessions, my portable recorder sounds to generate something new and inspiring.
 
