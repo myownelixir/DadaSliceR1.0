@@ -15,10 +15,11 @@ devtools::install_github("myownelixir/DadaSlicer1.0")
 
 ## Features
 * Filters out samples that are below 10 sec
-* Extracts and normalises 1 sec samples from randomly generated 10 time points (roll of dice)
+* Takes each sample from provided list and extracts and normalises 1 sec audio clips from randomly generated 10 time points (roll of dice)
 * Saves new samples to the output folder creating automatically new Sample Pack
 * Can save samples into smaller Sample Packs by randomly distributing 15 1 sec files into newly created subfolders based on output value folder via ```
 dada_folders(output) ```
+* Each time the out put is different
 
 ## Setup
 Make sure you have installed dependencies:
