@@ -7,7 +7,7 @@ I am a big believer in randomness and happy accidents. Being inspired by almost 
 
 ## Installation
 
-Us the devtools package to install the app:
+Use the devtools package to install the app:
 ```r
 # install.packages("devtools")
 devtools::install_github("myownelixir/DadaSlicer1.0")
