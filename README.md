@@ -3,7 +3,7 @@ Giving your samples a second life. Automated Sample Packs production.
 
 ## Why DadaSlicer?
 
-I am a big believer in randomness and happy accidents. Being inspired by almost century old tradition of Dada movement and earlier Surrealist tradition - Surrealist automatism -  whereby as a method of art-making artist would suppresses conscious control over the making process, allowing the unconscious mind to have great sway, I wanted to created something in that vain but with music production in mind. I also wanted something that is usefull and easy to use. In our case it is not the mind wondering however, but the roll of automated dice which governs the process. 
+I am a big believer in randomness and happy accidents. Inspired by an almost century old tradition of Dada movement and Surrealist automatism -  whereby the artist would suppresses conscious control over the making process, allowing the unconscious mind to have great sway, I wanted to create something similar for music production. I also wanted something useful and easy to use. In our case it is not the mind wondering, but the roll of automated dice which governs the process. 
 
 ## Installation
 
