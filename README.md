@@ -19,7 +19,7 @@ devtools::install_github("myownelixir/DadaSlicer1.0")
 * Saves new samples to the output folder creating automatically new Sample Pack
 * Can save samples into smaller Sample Packs by randomly distributing 15 1 sec files into newly created subfolders based on output value folder via ```
 dada_folders(output) ```
-* Each time the out put is different
+* Each time the output is different
 
 ## Setup
 Make sure you have installed dependencies:
@@ -28,7 +28,7 @@ install.packages("tuneR")
 install.packages("seewave")
 install.packages("dplyr")
 ```
-Point to the path where you keep the sample that you want to process:
+Point to the path where you keep your samples you want to process:
 
 ```r
 input <- "C:/some_folder/audiofiles/"
