@@ -1,23 +1,32 @@
 
 
+library(devtools)
+document()
+
 require(tuneR)
 require(seewave)
 require(dplyr)
 
 
 
-### CREATE TIMESTAMP FUCTNION ######
-
-
-
 
 ###### DEFINE DIRECTORIES #######
+#' Define input and out folders
+#' @param input,output if output folder does not exist it will be created
+#' @examples
+#' input <- "C:/some_folder/audiofiles/"
+#' output <- "C:/some_folder/audiofiles/chopped_samples"
+
 input <- NULL
 output <- NULL
 
 
 ###### GET WAVE LIST OF FILES ABOVE 10 SEC ########
-
+#' A data_slicer is the main function of the package. There are couple of main steps 1. It filters out the files that are above 10 sec. 2. It generates 5 or 10 random points (from, to) in time based on length of each file, extracts those samples into the output folder.
+#' @param input,output directories from where to take files and where to save new chopped files
+#' @return function does not return value, however it choppes the files from input folder and deposits new ones into the output folder
+#' @examples
+#' dada_slicer(input,output)
 
 
 dada_slicer <- function(input, output) {
@@ -148,9 +157,12 @@ dada_slicer <- function(input, output) {
 }
 
 
-#dada_slicer(input,output)
 
 ################# FILES REDISTRIBUTION INTO RANDOM FOLDERS #######################
+#' A data_folders is an additional function that takes as an argument (output) folder. The main purpose of this function is to redistribute randomly the newly generated files from the previous function into folders that contain only 15 files, creating effectively small sample packs.
+#' @return function creates new folders in the (output) folder and randomly chooses 15 files from the this folder, copies them and pastes them into the new folder. This operation is repeated untill all the files are redistributed in new folders. Once the operation is finished all the files from the (output) folder are removed.
+#' @examples
+#' ada_folders(output)
 
 dada_folders <- function(output){
 
