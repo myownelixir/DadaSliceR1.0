@@ -57,7 +57,7 @@ The output of this function are new folders in the ```(output)``` folder contain
 
 ## Application of the package
 
-When I was creating it, the main use case I was thinking about was to help me to go quickly through 100s or 1000s of samples from session recordings, foley recordings etc, and rather then manually select the most interesting bits I would leave it to chance, and let the faith decide and pick 10 1 sec audio clips from each of my files. I use it to generate a my personal sample packs and reuse newly generated samples in music production, sound design, TidalCycles projects etc.  
+When I was creating it, the main use case I was thinking about was to help me to go quickly through 100s or 1000s of samples from session recordings, foley recordings etc, and rather then manually select the most interesting bits I would leave it to chance, and let the faith decide and pick 10 1 sec audio clips from each of my files. I use it to generate my personal sample packs and use newly generated samples in music production, sound design, TidalCycles projects etc.  
 
 I have noticed that always there will be some very interesting clips among those samples that otherwise I might have missed. 
 
