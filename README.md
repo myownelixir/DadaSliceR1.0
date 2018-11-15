@@ -19,7 +19,8 @@ devtools::install_github("myownelixir/DadaSlicer1.0")
 * Saves new samples to the output folder creating automatically new Sample Pack
 * Can save samples into smaller Sample Packs by randomly distributing 15 1 sec files into newly created subfolders based on output value folder via ```
 dada_folders(output) ```
-* Each time the output is different, meaning that if you run the process again on the same ```input``` folder, the newly generated audio clips will be different as the time points would be different. 
+* Each time the output is different, meaning that if you run the process again on the same ```input``` folder, the newly generated audio clips will be different as the time points would be different
+* The output files are in the "one shots" category rather than loops etc.
 
 ## Setup
 Make sure you have installed dependencies:
@@ -65,4 +66,5 @@ So to sum up, here are some applications:
 * Reuse your old samples and chop them in new fashion to breath new live into your older work
 * Use it to chop your long foley recording sessions into nicely digestible audio clips
 * Get inspired, start recording random sounds from various inputs and turn them into sound packs. I routinely use my iPhone, my synth sessions, my portable recorder sounds to generate something new and inspiring.
+* Great for generating interesting textures and ambience sounds
 
