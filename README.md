@@ -1,5 +1,5 @@
 # DadaSlicer1.0
-Giving your samples a second life.
+Giving your samples a second life. Automated Sample Packs production.
 
 ## Why DadaSlicer?
 
