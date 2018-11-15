@@ -19,7 +19,7 @@ devtools::install_github("myownelixir/DadaSlicer1.0")
 * Saves new samples to the output folder creating automatically new Sample Pack
 * Can save samples into smaller Sample Packs by randomly distributing 15 1 sec files into newly created subfolders based on output value folder via ```
 dada_folders(output) ```
-* Each time the output is different
+* Each time the output is different, meaning that if you run the process again on the same ```input``` folder, the newly generated audio clips will be different as the time points would be different. 
 
 ## Setup
 Make sure you have installed dependencies:
