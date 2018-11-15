@@ -17,7 +17,7 @@ devtools::install_github("myownelixir/DadaSlicer1.0")
 * Filters out samples that are below 10 sec
 * Takes each sample from provided list and extracts and normalises 1 sec audio clips from randomly generated 10 time points (roll of dice)
 * Saves new samples to the output folder creating automatically new Sample Pack
-* Can save samples into smaller Sample Packs by randomly distributing 15 1 sec files into newly created subfolders based on output value folder via ```
+* Can save samples into smaller Sample Packs by randomly distributing fifteen 1 sec files into newly created subfolders based on output value folder via ```
 dada_folders(output) ```
 * Each time the output is different, meaning that if you run the process again on the same ```input``` folder, the newly generated audio clips will be different as the time points would be different
 * The output files are in the "one shots" category rather than loops etc.
