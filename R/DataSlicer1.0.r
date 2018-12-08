@@ -1,8 +1,5 @@
 
 
-library(devtools)
-document()
-
 require(tuneR)
 require(seewave)
 require(dplyr)
